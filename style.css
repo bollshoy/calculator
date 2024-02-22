@@ -17,13 +17,8 @@ body {
 .container {
     text-align: center;
     justify-content: center;
-    margin-top: 20vh;
+    margin-top: 30vh;
     gap: 45px;
-    border: 2px solid #FFFFFF;
-    width: 500px;
-    height: 500px;
-    margin-left: 35%;
-    border-radius: 45px;
 }
 
 h1 {
@@ -37,7 +32,6 @@ input{
     padding: 10px;
     border-radius: 15px;
     border: none;
-    font-size: 18px;
 }
 
 p {
@@ -52,14 +46,13 @@ button {
     margin-right: 40px;
     border-radius: 40px;
     border: none;
-    font-size: 24px;
-    margin-left: 30px;
+    font-size: 18px;
     color: #333;
     transition: .5s ease;
 }
 
 button:hover {
-    color: #00008B;
+    color: #5e5e5e;
     transition: .5s ease;
     cursor: pointer;
 }
