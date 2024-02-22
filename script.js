@@ -23,7 +23,7 @@ btn2.addEventListener('click', function (){
     let num1 = parseFloat(inp1)
     let num2 = parseFloat(inp2)
 
-    let sum2 = num2 - num1
+    let sum2 = num1 - num2
 
     text.textContent = sum2
 })
@@ -35,7 +35,7 @@ btn3.addEventListener('click', function (){
     let num1 = parseFloat(inp1)
     let num2 = parseFloat(inp2)
 
-    let sum3 = num2 / num1
+    let sum3 = num2 * num1
 
     text.textContent = sum3
 })
@@ -47,7 +47,7 @@ btn4.addEventListener('click', function (){
     let num1 = parseFloat(inp1)
     let num2 = parseFloat(inp2)
 
-    let sum4 = num1 * num2
+    let sum4 = num1 / num2
 
     text.textContent = sum4
 })
